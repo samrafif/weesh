@@ -5,8 +5,8 @@ from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 from sqlalchemy.sql.operators import exists
 
-from wee.database.database import session
-from wee.database.models import URL
+from weesh.database.database import session
+from weesh.database.models import URL
 
 app = FastAPI()
 

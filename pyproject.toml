@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "wee"
+name = "weeshsh"
 version = "0.1.0"
 description = ""
 authors = ["UstmanAbdurahman <72262190+UstmanAbdurahman@users.noreply.github.com>"]
@@ -17,7 +17,7 @@ pytest = "^5.2"
 taskipy = "^1.8.2"
 
 [tool.taskipy.tasks]
-start = "uvicorn wee.__main__:app --reload"
+start = "uvicorn weesh.__main__:app --reload"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

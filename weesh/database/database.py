@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 
-from wee.config import DatabaseConfig
+from weesh.config import DatabaseConfig
 
 log = logging.getLogger(__name__)
 

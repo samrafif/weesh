@@ -2,7 +2,7 @@ from uuid import uuid4
 
 from sqlalchemy import Column, String
 
-from wee.database.database import Base
+from weesh.database.database import Base
 
 class URL(Base):
     __tablename__ = "urls"
