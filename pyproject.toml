@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "wee"
+version = "0.1.0"
+description = ""
+authors = ["UstmanAbdurahman <72262190+UstmanAbdurahman@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+SQLAlchemy = "1.4.23"
+alembic = "^1.7.3"
+fastapi = "^0.68.1"
+psycopg2 = "^2.9.1"
+uvicorn = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+taskipy = "^1.8.2"
+
+[tool.taskipy.tasks]
+start = "uvicorn wee.__main__:app --reload"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
