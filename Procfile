@@ -1,0 +1,1 @@
+web: uvicorn weesh.__main__:app --host=0.0.0.0 --port=${PORT:-5000}
